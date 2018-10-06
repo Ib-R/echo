@@ -6,9 +6,24 @@
 @import 'variables';
 
 // Bootstrap
-@import '~bootstrap/scss/bootstrap';
+// @import '~bootstrap/scss/bootstrap';
 
 .navbar-laravel {
   background-color: #fff;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+
+body{
+  height: 100vh;
+}
+
+.full-height{
+  height: 91vh;
+}
+
+#chat{
+  overflow: overlay;
+  width: 100vw;
+  height: 85vh;
+  padding: 2rem;
 }
